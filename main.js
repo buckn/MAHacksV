@@ -6,29 +6,9 @@ var fs = require("fs");
 
 var dataArray = {arrayOfObjects: []};
 
-function randomBoolean() {
-    let x = Math.round(Math.random());
-    if (x < 1) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 if (fs.existsSync(".data.json")) {
     var dataArray = JSON.parse(fs.readFileSync(".data.json", "utf8"));
-} else {
-    for (i = 0; i < 10; i++) {
-        var dataArray.arrayOfObjects.push({
-            weight: Math.random() * 343,
-            neutered: randomBoolean(),
-            obesity: randomBoolean(),
-            idealWeight: Math.random() * 343,
-            activityLevel: Math.round(Math.random() * 5),
-            age: Math.random * 29
-        });
-    }
-}
+} 
 
 app.get('/', function(req, res){
 	res.sendFile(__dirname + '/www/index.html');
