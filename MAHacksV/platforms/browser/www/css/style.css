@@ -245,8 +245,13 @@ h3 {
   border-color: #C2F0F0;
   color: #C2F0F0;
 }
-.selectMenu, .radioMenu, .isNeuteredMenu, .isObeseProneMenu, .weightMenu, .idealWeightMenu {
+.selectMenu, .isNeuteredMenu, .isObeseProneMenu, .weightMenu, .idealWeightMenu {
   text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.radioMenu {
+  text-align: left;
   font-size: 18px;
   font-weight: 400;
 }

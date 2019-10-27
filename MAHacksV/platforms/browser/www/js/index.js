@@ -250,7 +250,7 @@ function getCalorieCalc() {
     document.getElementById("calorieOut").innerHTML = Math.floor(x);
     unhideCalorieOut();
 
-    document.getElementById("weightDifferenceOut").innerHTML = Math.abs(actualWeighttmp - idealWeighttmp);
+    document.getElementById("weightDifferenceOut").innerHTML = Math.floor(Math.abs(actualWeighttmp - idealWeighttmp));
 
     let obesityVal;
     let neuteredVal;
