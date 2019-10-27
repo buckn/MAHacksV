@@ -6,7 +6,7 @@ var fs = require("fs");
 
 var dataArray = {arrayOfObjects: []};
 
-randomBoolean() {
+function randomBoolean() {
     let x = Math.round(Math.random());
     if (x < 1) {
         return true;
