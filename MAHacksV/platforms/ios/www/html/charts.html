@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel = "stylesheet" type ="text/css" href = "../css/style.css" >
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a7ea3a1104.js" crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <meta charset = "utf-8" >
+  <title>KibbleCalc</title>
+</head>
+<body>
+  <div class="topnav">
+    <h1 class="title"><strong>KibbleCalc</strong></h1>
+    <img style="width:5%; height: 8%; padding: 5px;" src="../image/transparentlogo.png"/>
+    <div class="topnav-right">
+      <a href = "../index.html"><i class="fas fa-calculator"></i> Calculator</a>
+      <a href = "charts.html"><i class="fas fa-chart-line"></i> Stats</a>
+    </div>
+  </div>
+
+  <div>
+    <div class="exp" style="height: 500px; width: 35%; text-align: center; padding: 25px; margin-left: 31%; margin-right: 20%;">
+      <canvas id="ageVSActivity" width="50px" height="50px"></canvas>
+    </div>
+    <div class="block" style="height: 500px; width: 35%; text-align: center; padding: 25px; margin-left: 20%; margin-right: 30%;">
+      <canvas id="obesity" width="400" height="400"></canvas>
+    </div>
+  </div>
+  <div>
+    <div class="exp" style="height: 500px; width: 35%; text-align: center; padding: 25px; margin-left: 31%; margin-right: 20%;">
+      <canvas id="weightVSIdealWeight" width="400" height="400"></canvas>
+    </div>
+    <div class="block" style="height: 500px; width: 35%; text-align: center; padding: 25px; margin-left: 20%; margin-right: 30%;">
+      <canvas id="weightVSAge" width="400" height="400"></canvas>
+    </div>
+  </div>
+  <script src="../js/charts.js"></script>
+</body>
+</html>
