@@ -1,8 +1,8 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloCordova",
+  "name": "KibbleCalc",
+  "displayName": "KibbleCalc",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "A Cordova application that calculates the amount of calories any given dog needs. It also gives statistics about all the dogs entered into our system.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,11 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "buckn",
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-browser": "^6.0.0",
+    "cordova-electron": "^1.1.1",
     "cordova-ios": "^5.0.1"
   },
   "devDependencies": {
@@ -25,7 +26,9 @@
     },
     "platforms": [
       "browser",
-      "ios"
+      "ios",
+      "android",
+      "electron"
     ]
   }
 }
