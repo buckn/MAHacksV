@@ -1,20 +1,33 @@
 # MAHacksV
-Project for MAHacks V
 
 ## Our project, KibbleCalc
 
 Our project allows dog owners to calculate the calories that their dog needs per day. It also allows people to view real-time charts about the dogs that have been submitted to the website, or app. Our application is cross platform using cordova to be portable to the browser, Electron, Android, and iOS.
 
-## How to Run
+## How to Run in the Browser
 
-Install npm packages in root directory.
+Install npm packages from the root directory.
 
-``npm install``
+	npm install
 
-Run node.js server from root directory.
+Run node.js server from the root directory.
 
-``node .``
+	node .
 
-Run client side app with cordova from the MAHacksV directory, to start the UI in a browser window.
+Add the browser platform to cordova, run this from the MAHacks subdirectory.
 
-``cordova run browser``
+	cordova platform add
+
+Run client side app with cordova from the MAHacksV subdirectory. This is to to start the UI in a browser window.
+
+	cordova run browser
+
+## How to Build as an Electron Application
+
+Add the electron platform for Cordova from the MAHacksV subdirectory.
+
+	cordova platform add electron
+
+Build the electron app for your platform from the MAHacksV subdirectory.
+
+	cordova build electron
