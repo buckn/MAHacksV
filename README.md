@@ -34,3 +34,5 @@ Add the electron platform for Cordova from the MAHacksV subdirectory.
 Build the electron app for your platform from the MAHacksV subdirectory.
 
 	cordova build electron
+
+The electron application's installer should be in the /MAHacksV/MAHacksV/platforms/build/ directory
