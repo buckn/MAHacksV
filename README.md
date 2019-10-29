@@ -4,7 +4,10 @@
 
 Our project allows dog owners to calculate the calories that their dog needs per day. It also allows people to view real-time charts about the dogs that have been submitted to the website, or app. Our application is cross platform using cordova to be portable to the browser, Electron, Android, and iOS.
 
+To run this project you will need to have Node.js, npm, and Cordova installed.
+
 ## How to Run in the Browser
+
 
 Install npm packages from the root directory.
 

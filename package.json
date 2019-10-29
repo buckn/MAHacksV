@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukec11/MAHacksV.git"
+    "url": "git+https://github.com/buckn/MAHacksV.git"
   },
   "author": "buckn",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/lukec11/MAHacksV/issues"
+    "url": "https://github.com/buckn/MAHacksV/issues"
   },
-  "homepage": "https://github.com/lukec11/MAHacksV#readme",
+  "homepage": "https://github.com/buckn/MAHacksV#readme",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
